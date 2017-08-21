@@ -1,8 +1,7 @@
 package = "kong-oidc"
 version = "1.0.0-0"
 source = {
-    url = "https://github.com/vkorehov/kong-oidc",
-    tag = "master"
+    url = "git://github.com/vkorehov/kong-oidc.git"
 }
 description = {
     summary = "A Kong plugin for implementing the OpenID Connect Relying Party (RP) functionality",
@@ -21,7 +20,7 @@ description = {
     license = "Apache 2.0"
 }
 dependencies = {
-    "lua-resty-openidc ~> 1.2.3-1"
+    "lua-resty-openidc ~> 1.4.0-1"
 }
 build = {
     type = "builtin",
